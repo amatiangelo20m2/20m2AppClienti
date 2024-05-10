@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "256309139379",
+    "project_id": "ventimetriappclienti",
+    "storage_bucket": "ventimetriappclienti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256309139379:android:bdb8b97447571e063c9dc6",
+        "android_client_info": {
+          "package_name": "com.ventimetriquadri.appclienti.ventimetriappclienti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyDwIsTTOEndZm4eP1yV8u0g9N_wIfSW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
