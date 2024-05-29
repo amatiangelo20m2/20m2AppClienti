@@ -1,6 +1,7 @@
 import 'package:awesome_bottom_bar/awesome_bottom_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_credit_card/flutter_credit_card.dart';
 
 import '../theme/colors.dart';
 
@@ -62,6 +63,21 @@ class _HomeState extends State<Home> {
             Navigator.pushNamed(context, Home.routeName);
           },
           child: Icon(Icons.menu, color: white),
+        ),
+      ),
+      body: Container(
+        color: backgroundColor,
+        child: Padding(
+          padding: const EdgeInsets.only(top: 150),
+          child: CreditCardWidget(
+            enableFloatingCard: true,
+            cardNumber: '333',
+            expiryDate: '',
+            cardHolderName: 'ngelo amam',
+            cvvCode: '',
+            showBackView: true, //true when you want to show cvv(back) view
+            onCreditCardWidgetChange: (CreditCardBrand brand) {}, // Callback for anytime credit card brand is changed
+          ),
         ),
       ),
     );
